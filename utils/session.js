@@ -2,7 +2,7 @@ const axios = require('axios');
 
 // Define your API URL and authentication token
 const API_URL = 'https://web.stytch.com/sdk/v1/sessions/authenticate';
-const AUTH_TOKEN = 'cHVibGljLXRva2VuLWxpdmUtMjZhODlmNTktMDlmOC00OGJlLTkxZmYtY2U3MGU2MDAwY2I1OkMyLS1PeTVSeUZEWkZYMlhXN0Y1UDloR2FiNk4tQjBvVDN5ZUNQUkgybFRy'; 
+const AUTH_TOKEN = 'cHVibGljL...your-auth-token-here...Zm9ybWF0'; 
 
 
 // Create an instance of axios with default headers and origin
