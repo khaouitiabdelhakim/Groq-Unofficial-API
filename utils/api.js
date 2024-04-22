@@ -1,3 +1,9 @@
+/*
+  Copyright (c) 2024 KHAOUITI ABDELHAKIM
+  GitHub: khaouitiabdelhakim
+  Free to use, update, pull, and change.
+*/
+
 const axios = require("axios");
 const apiSessionInstance = require("./session");
 
@@ -21,7 +27,7 @@ async function getChatResponse(
       baseURL: API_URL,
       headers: {
         Authorization: `Bearer ${AUTH_TOKEN}`,
-        "groq-organization": "org_01hw0xg2m0fwysw6rztgqzmsxg",
+        "groq-organization": "org_01....",
       },
     });
 

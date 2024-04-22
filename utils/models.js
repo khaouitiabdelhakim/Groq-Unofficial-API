@@ -1,3 +1,9 @@
+/*
+  Copyright (c) 2024 KHAOUITI ABDELHAKIM
+  GitHub: khaouitiabdelhakim
+  Free to use, update, pull, and change.
+*/
+
 const axios = require('axios');
 const apiSessionInstance = require('./session');
 
@@ -8,14 +14,14 @@ async function getModelIds() {
     let AUTH_TOKEN;
     
     // Get session JWT
-    const sessionResponse = await apiSessionInstance.post('', { /* Your data here */ });
+    const sessionResponse = await apiSessionInstance.post('', {});
     AUTH_TOKEN = sessionResponse.data.data.session_jwt;
 
     // Fetch models
     const modelsResponse = await axios.get(API_URL, {
       headers: {
         'Authorization': `Bearer ${AUTH_TOKEN}`,
-        'groq-organization': 'org_01hw0xg2m0fwysw6rztgqzmsxg'
+        'groq-organization': 'org_01...'
       }
     });
 
